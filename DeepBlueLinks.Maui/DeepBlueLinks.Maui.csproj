@@ -23,7 +23,8 @@
         <PackageIcon>Logo_Deep_Blue_Links_On_Dark_Vertical@3x.png</PackageIcon>
         <Copyright>Copyright (c) Square Six Technologies 2024</Copyright>
         <PackageReleaseNotes>Initial Release for Deep Blue Link MAUI SDK</PackageReleaseNotes>
-        <Version>1.0.1</Version>
+        <Version>1.0.2</Version>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
