@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0-ios</TargetFramework>
+        <OutputType>Exe</OutputType>
+        <RootNamespace>DeepBlueLinksExample</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <SupportedOSPlatformVersion>15.0</SupportedOSPlatformVersion>
+        <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    </PropertyGroup>
+
+    <!-- DeepBlueLinks.cs uses reflection-based JSON, which the default TrimMode keeps working; .NET MAUI sets the same.
+         TrimMode=full would trim the JSON types, so the warnings stay on there. -->
+    <PropertyGroup Condition="'$(TrimMode)' != 'full'">
+        <EnableTrimAnalyzer>false</EnableTrimAnalyzer>
+        <SuppressTrimAnalysisWarnings>true</SuppressTrimAnalysisWarnings>
+    </PropertyGroup>
+
+</Project>
