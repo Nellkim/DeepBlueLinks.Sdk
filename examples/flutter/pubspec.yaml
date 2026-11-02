@@ -1,0 +1,23 @@
+name: deepbluelinks
+description: "Opens Deep Blue Links short links and finds the link behind an install."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  app_links: ^7.2.2
+  flutter_timezone: ^5.1.1
+  http: ^1.6.0
+  play_install_referrer: ^0.6.0
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
