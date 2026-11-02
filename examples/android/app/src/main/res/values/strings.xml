@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Deep Blue Links example</string>
+
+    <string name="opened_link_label">Link that opened the app</string>
+    <string name="no_link_yet">No link yet. Open a link on %1$s or a %2$s:// URL.</string>
+    <string name="resolving">Resolving %1$s…</string>
+    <string name="resolved_link">id: %1$d\nlongUrl: %2$s\nshortUrl: %3$s\nisSandbox: %4$b</string>
+    <string name="not_a_short_link">%1$s\nNot one of your short links (404), so the app routes by the URL itself.</string>
+    <string name="opened_by_scheme">%1$s\nA URL scheme link isn\'t a short link, so the app routes it without calling the API.</string>
+
+    <string name="route_label">Route the app opened</string>
+    <string name="no_route_yet">None yet</string>
+
+    <string name="deferred_link_label">Deferred link (first launch)</string>
+    <string name="deferred_checked_earlier">Checked on an earlier launch.</string>
+    <string name="deferred_checking">Reading the install referrer…</string>
+    <string name="deferred_resolving">Resolving %1$s…</string>
+    <string name="no_deferred_link">No deferred link</string>
+    <string name="deferred_not_a_short_link">No deferred link: %1$s isn\'t one of your short links (404).</string>
+    <string name="check_deferred_link">Check for a deferred link</string>
+    <string name="check_deferred_link_hint">Testing aid: a real app checks only once, on its first launch.</string>
+
+    <string name="last_error_label">Last error</string>
+    <string name="no_error">None</string>
+    <string name="error">Error: %1$s</string>
+</resources>
