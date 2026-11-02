@@ -1,0 +1,17 @@
+<resources>
+    <string name="screen_title">Deep Blue Links example</string>
+
+    <string name="opened_link_label">Link that opened the app</string>
+    <string name="no_link_yet">No link yet</string>
+
+    <string name="route_label">Route the app would open</string>
+    <string name="no_route_yet">None yet</string>
+
+    <string name="deferred_link_label">Deferred link (first launch)</string>
+    <string name="not_checked_yet">Not checked yet</string>
+    <string name="check_deferred_link">Check for a deferred link</string>
+    <string name="check_deferred_link_hint">Testing aid: a real app looks for the deferred link only once, on its first launch.</string>
+
+    <string name="last_error_label">Last error</string>
+    <string name="no_error">None</string>
+</resources>
