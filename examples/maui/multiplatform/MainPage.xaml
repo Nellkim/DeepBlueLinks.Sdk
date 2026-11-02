@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DeepBlueLinksExample"
+             x:Class="DeepBlueLinksExample.MainPage"
+             x:DataType="local:LinkResults"
+             Title="Deep Blue Links example">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="8">
+            <Label Text="Link that opened the app" FontAttributes="Bold" />
+            <Label Text="{Binding OpenedLink}" />
+
+            <Label Text="Deferred link" FontAttributes="Bold" Margin="0,16,0,0" />
+            <Label Text="{Binding DeferredLink}" />
+            <Button x:Name="CheckButton" Text="Check for a deferred link" Clicked="OnCheckClicked" />
+            <Label Text="Testing aid: a real app looks for the deferred link only once, on its first launch." FontSize="12" />
+
+            <Label Text="Last error" FontAttributes="Bold" Margin="0,16,0,0" />
+            <Label Text="{Binding LastError}" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
