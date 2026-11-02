@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">DBL Example</string>
+    <string name="title_activity_main">DBL Example</string>
+    <string name="package_name">com.example.deepbluelinks</string>
+    <string name="custom_url_scheme">com.example.deepbluelinks</string>
+</resources>

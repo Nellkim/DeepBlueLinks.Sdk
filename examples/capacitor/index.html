@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Deep Blue Links example</title>
+  </head>
+  <body>
+    <main>
+      <h1>Deep Blue Links example</h1>
+
+      <section>
+        <h2>Link that opened the app</h2>
+        <dl id="opened-link"></dl>
+      </section>
+
+      <section>
+        <h2>Deferred link</h2>
+        <dl id="install-link"></dl>
+        <button id="check-install-link" type="button">Check for a deferred link (testing aid)</button>
+        <p class="note">A real app runs this lookup only once, on its first launch.</p>
+      </section>
+
+      <section>
+        <h2>Route</h2>
+        <p id="route">None yet</p>
+      </section>
+
+      <section>
+        <h2>Last error</h2>
+        <p id="last-error">None</p>
+      </section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
